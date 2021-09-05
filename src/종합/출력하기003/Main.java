@@ -10,10 +10,10 @@ public class Main {
         int x = 0;
         int result = 0;
 
-        while(result <= a) {
+        do{
             x++;
             result += x;
-        }
+        }while(result < a);
         System.out.println(x);
     }
 }
